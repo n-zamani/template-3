@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    font: inherit;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.grey {
+    background-color: #f1f1f1;
+}
+
+.red-text {
+    color: #f44336;
+}
+
+nav {
+    width: 300px;
+    height: 100%;
+    z-index: 3;
+    font-weight: bold;
+    color: white;
+    background-color: #f44336;
+    padding: 8px 16px;
+    font-size: 18px;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar a {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    padding: 0.01em 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.title {
+    padding-bottom: 64px;
+    padding-top: 64px;
+}
+
+section {
+    margin-left: 340px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.red-text {
+    color: #f44336;
+}
+
+hr {
+    width: 50px;
+    border: 5px solid red;
+    border-radius: 4px;
+    margin: 20px 0;
+    box-sizing: content-box;
+}
+
+.row {
+    padding: 0 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.half {
+    padding: 0 8px;
+    width: 49.99999%;
+    float: left;
+    box-sizing: border-box;
+    overflow-y: -webkit-paged-y;
+}
+
+.half img {
+    width: 100%;
+    margin-bottom: -6px;
+    margin-top: 16px;
+    opacity: 0.8;
+    cursor: pointer;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.half img:hover {
+    opacity: 1;
+}
+
+.team {
+    padding: 0 8px;
+    width: 33.33333%;
+    margin-bottom: 16px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.grey img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dark-grey {
+    color: white;
+    background-color: #616161;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.padding-24 {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border: none;
+}
+
+.button-basic {
+    background-color: white;
+    border: none;
+    padding: 12px 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.red-box {
+    color: white;
+    background-color: #f44336;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.button-pro {
+    color: white;
+    background-color: #f44336;
+    border: none;
+    padding: 12px 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+[class|="button"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.my-form {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-btn {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 24px;
+    color: white;
+    background-color: #f44336;
+    margin-bottom: 16px;
+    user-select: none;
+}
+
+.contact-btn:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+footer {
+    margin-top: 75px;
+    padding: 32px 58px 32px 16px;
+    overflow: hidden;
+}
+
+footer p {
+    float: right;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    opacity: 0.6;
+}
