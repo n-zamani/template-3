@@ -1,0 +1,213 @@
+@import '~materialize-css/sass/materialize.scss';
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(/dist/fonts/Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.desktop-sidenav {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 8px 16px;
+
+  & > h5 {
+    padding: 64px 16px;
+    margin: 20px 0;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  & > ul li {
+    &:hover {
+      background-color: white !important;
+    }
+
+    & a {
+      padding: 8px 16px;
+      width: 100%;
+      font-weight: 600;
+
+      &:hover {
+        color: black !important;
+      }
+    }
+  }
+}
+
+.sidenav {
+  padding: 8px 16px;
+
+  & > h5 {
+    padding: 64px 16px;
+    margin: 20px 0;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  & > ul li {
+    &:hover {
+      background-color: white !important;
+    }
+
+    & a {
+      padding: 0 16px;
+      font-weight: 600;
+
+      &:hover {
+        color: black !important;
+      }
+    }
+  }
+}
+
+.sidenav-close {
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 16px;
+
+  &:hover {
+    background-color: #ccc;
+    color: black;
+  }
+}
+
+main {
+  margin: 0;
+}
+
+@media #{$large-and-up} {
+  main {
+    margin: 0 40px 0 340px;
+  }
+}
+
+header {
+  margin: 80px 0 0;
+  padding: 0 16px;
+
+  & > h1 {
+    font-weight: 700;
+  }
+}
+
+section {
+  padding: 0 16px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+hr {
+  width: 50px;
+  border: 5px solid red;
+  border-radius: 4px;
+  margin: 30px 0;
+}
+
+.showcase-img {
+  margin: 0 -12px;
+  & img {
+    margin-bottom: 20px;
+  }
+}
+
+.section-title {
+  margin-top: 80px;
+}
+
+.designers-team {
+  margin: 20px -12px 0;
+
+  & img {
+    filter: grayscale(75%);
+  }
+}
+
+.packages-plans {
+  margin: 20px -12px 0;
+
+  & ul {
+    border: none;
+  }
+
+  & .collection-header {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  & .collection-item {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+
+    & > button {
+      &:hover {
+        background-color: black !important;
+        color: white !important;
+      }
+    }
+  }
+
+  & .plan-price {
+    font-size: xx-large;
+
+    & > p {
+      font-size: medium;
+      margin: 20px 0 0;
+    }
+  }
+}
+
+form {
+  margin-top: 30px!important;
+  margin-bottom: 100px!important;
+
+  & label.active {
+    color: black!important;
+  }
+
+  & input:focus, textarea:focus {
+    border-color: black!important;
+    box-shadow: none!important;
+  }
+
+  & button {
+    width: 100%;
+
+    &:hover {
+      background-color: #ccc!important;
+      color: black!important;
+    }
+  }
+}
+
+footer {
+  padding: 50px!important;
+
+  & a {
+    text-decoration: underline;
+  }
+}
